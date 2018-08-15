@@ -1,3 +1,4 @@
-function pranshu(){
+function pranshu()
+{
 alert("hello frndssss");
 }
