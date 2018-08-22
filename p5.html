@@ -1,0 +1,19 @@
+<html><head>
+<script type="text/javascript">
+		function myFunction(){
+			var x="";
+			var time=new Date().getHours();
+			if (time<20)  {
+				  x="Good day"; 	  }
+			else { 
+			x="Good Night"; 	}
+			document.getElementById("demo").innerHTML=x;
+		}
+</script></head> <body>
+<p>Click the button to get a "Good day" greeting if the time is less than 20:00.</p>
+
+	<button onclick="myFunction()">Try it</button>
+
+	<p id="demo"></p>
+
+</body> </html>
