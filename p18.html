@@ -1,0 +1,21 @@
+<html>
+<body>
+
+<p>Click the button to display the current time.</p>
+<button onclick="myFunction()">Try it</button>
+
+<script>
+	function myFunction(){
+		setInterval(function(){myTimer()},1000);
+}
+
+	function myTimer(){
+		var d=new Date();
+		var t=d.toLocaleTimeString();
+		document.getElementById("demo").innerHTML=t;
+	}
+</script>
+
+<p id="demo"></p>
+
+</body>
