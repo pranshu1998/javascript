@@ -1,19 +1,21 @@
 <html>
-<head></head>
-<title>java script by pranshu</title>
+<head>
+<script>
+function add(){
+var a,b,c;
+a=Number(document.getElementById("first").value);
+b=Number(document.getElementById("second").value)
+c= a + b;
+document.getElementById("answer").value= c;
+}
+</script>
+</head>
 <body>
-	<script type="text/javascript" language="JavaScript">
+Enter the first number : <input id="first"></br>
+</br>
+Enter the second number : <input id="second"></br></br>
 
-//single line comment
-/*multi
-line
-comment*/
-                    var x=420
-	document.write("<b>HELLO WORLD !!! </b><u>I am new in JS</u>" + x );
-
-	document.write("<br>This is another line");
-
- 	</script>
+<button onclick="add()">Add</button>
+<input id="answer"></br></br>
 </body>
-
-</html> 
+</html>
