@@ -1,23 +1,16 @@
 <html>
-<head>
-<title>use of local and global variable</title>
-</head>
+<head></head>
 <body>
-<script type="text/javascript" language="javascript">
-var x="apple";
-function pranshu()
-{
-var p="orange";
-document.write("I like  " + p + " and "+x);
-}
-function hunny()
-{
-var k="Musabi";
-document.write("I dnt like " + k);
-}
-document.write ("Hurry its working !!!");
+<p id="demo"></p>
+
+<script>
+ var x,y,z;
+x=7;
+y=9;
+z=x+y;
+document.getElementById("demo").innerHTML="value of z  = " +z 
+
 </script>
-<input type="button" value="press me" onclick="pranshu()">
-<input type="button" value="oK" onclick="hunny()">
+
 </body>
 </html>
