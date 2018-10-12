@@ -1,21 +1,19 @@
+<!DOCTYPE html>
 <html>
-<head>
-<script>
-function add(){
-var a,b,c;
-a=Number(document.getElementById("first").value);
-b=Number(document.getElementById("second").value)
-c= a + b;
-document.getElementById("answer").value= c;
-}
-</script>
-</head>
 <body>
-Enter the first number : <input id="first"></br>
-</br>
-Enter the second number : <input id="second"></br></br>
 
-<button onclick="add()">Add</button>
-<input id="answer"></br></br>
+<h2>JavaScript String Methods</h2>
+
+<p>The indexOf() method returns the position of the first occurrence of a specified text:</p>
+
+<p id="demo"></p>
+
+<script>
+var str = "Please locate where 'locate' occurs!";
+var pos = str.indexOf("locate");
+document.getElementById("demo").innerHTML = pos;
+</script>
+
 </body>
 </html>
+
